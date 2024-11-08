@@ -8,7 +8,7 @@ public class FVCalc {
         double rateperyear = rate/100;
 		double futurevalue = savings * Math.pow(1+rateperyear, years);
 
-		System.out.println ("after " + years + " years , " + savings + " saved at " + rateperyear + "%" + " will yield " + futurevalue + "$");
+		System.out.println ("after " + years + " years, " + savings + " saved at " + "$" + rate + " will yield " + "$" + (int)futurevalue );
 
 
 
