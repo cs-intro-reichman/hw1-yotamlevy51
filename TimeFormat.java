@@ -20,7 +20,7 @@ public class TimeFormat {
             updateminutes = updateminutes + " PM"; 
             updatehour = hours-12;
         }
-         if (updatehour < 12)
+         if (hours < 12)
 		  {
             updateminutes = updateminutes + " AM";
 		}
